@@ -13,13 +13,13 @@ Toxland Adventure – My Safe Lab: The Toxicology Game (Subsystem 3: Toxicology 
 
 # FYP SUBSYSTEM 
 
-## Subsystem-2 Toxicology Lab. This subsystem has two modules: 
+## Subsystem-2 Toxicology Lab. This subsystem has two modules/Games: 
 
-### 5 Lab Detective  
+### Lab Detective  
 - Identify unsafe behaviors and situations in the laboratory science that can result in personal injury or property damage. 
 - learn about the dangers of unsafe behavior or conditions identified while in the science lab.
 
-### 6 Lab OOTD
+### Lab OOTD
 - identify some personal protective equipment (ALD) rules for each different labs. 
 - practice the correct use of ALD for each test different in the laboratory.  
 - increase the awareness of the complete ALD usage rules and safe when doing any tests in the laboratory.
