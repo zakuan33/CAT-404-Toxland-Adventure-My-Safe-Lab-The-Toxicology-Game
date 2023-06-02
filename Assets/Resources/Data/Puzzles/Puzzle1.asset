@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554a5b73df09608408db922c309f9087, type: 3}
+  m_Name: Puzzle1
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Columns: 14
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - M
+    - W
+    - A
+    - P
+    - B
+    - E
+    - B
+    - O
+    - L
+    - A
+  - Size: 10
+    Row:
+    - U
+    - E
+    - L
+    - E
+    - M
+    - E
+    - N
+    - T
+    - A
+    - L
+  - Size: 10
+    Row:
+    - D
+    - E
+    - T
+    - I
+    - N
+    - G
+    - K
+    - A
+    - P
+    - A
+  - Size: 10
+    Row:
+    - A
+    - P
+    - E
+    - N
+    - Y
+    - E
+    - D
+    - U
+    - T
+    - M
+  - Size: 10
+    Row:
+    - H
+    - M
+    - R
+    - A
+    - C
+    - U
+    - N
+    - M
+    - H
+    - S
+  - Size: 10
+    Row:
+    - M
+    - U
+    - M
+    - R
+    - A
+    - K
+    - S
+    - A
+    - G
+    - E
+  - Size: 10
+    Row:
+    - E
+    - L
+    - O
+    - Y
+    - A
+    - B
+    - A
+    - T
+    - U
+    - K
+  - Size: 10
+    Row:
+    - R
+    - U
+    - M
+    - I
+    - R
+    - U
+    - A
+    - M
+    - P
+    - I
+  - Size: 10
+    Row:
+    - U
+    - T
+    - E
+    - A
+    - P
+    - L
+    - A
+    - H
+    - N
+    - T
+  - Size: 10
+    Row:
+    - A
+    - K
+    - T
+    - U
+    - I
+    - B
+    - O
+    - M
+    - B
+    - A
+  - Size: 10
+    Row:
+    - P
+    - T
+    - E
+    - K
+    - N
+    - H
+    - A
+    - B
+    - A
+    - R
+  - Size: 10
+    Row:
+    - C
+    - I
+    - R
+    - I
+    - T
+    - B
+    - I
+    - R
+    - I
+    - T
+  - Size: 10
+    Row:
+    - M
+    - E
+    - U
+    - R
+    - U
+    - P
+    - A
+    - N
+    - I
+    - K
+  - Size: 10
+    Row:
+    - B
+    - L
+    - O
+    - N
+    - G
+    - K
+    - A
+    - N
+    - G
+    - R
+  SearchWords:
+  - Word: TERMOMETER
+  - Word: RAKSA
+  - Word: WAP
+  - Word: HABA
+  - Word: HG
+  - Word: BEBOLA
+  - Word: LOYA
+  - Word: MULUT
+  - Word: RACUN
+  - Word: MAKMAL
+  - Word: BOMBA
+  - Word: LONGKANG
+  - Word: BERKILAT
+  - Word: MUDAHMERUAP
+  - Word: PANIK
+  - Word: PENYEDUT
+  - Word: BATUK
+  - Word: CIRITBIRIT
+  - Word: ALAMSEKITAR
+  - Word: PINTU
+  - Word: TINGKAP
+  - Word: ELEMENTAL
+  - Word: PENCEMARAN
+  - Word: RUAM
