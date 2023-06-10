@@ -173,18 +173,31 @@ public class GameCanvas : MonoBehaviour
                 FinishCanvas.SetActive(false);
                 //k = RandomNumber[clicks];
                 int l;
-                do
-                {
-                    l = UnityEngine.Random.Range(0, imagePaths.Length);
-                } while (textures1[l] == textures1[k]);
-
+      
                 Qimage.sprite = Sprite.Create(Qtextures[k], new Rect(0, 0, Qtextures[k].width, Qtextures[k].height), Vector2.zero);
-                image1.sprite = Sprite.Create(textures1[k], new Rect(0, 0, textures1[k].width, textures1[k].height), Vector2.zero);
-                image2.sprite = Sprite.Create(textures2[l], new Rect(0, 0, textures2[l].width, textures2[l].height), Vector2.zero);
+                bool isAnswerOnLeft = Random.value < 0.5f;
+                if (isAnswerOnLeft)
+                {
+                    image1.sprite = Sprite.Create(textures1[k], new Rect(0, 0, textures1[k].width, textures1[k].height), Vector2.zero);
+                    do
+                    {
+                        l = UnityEngine.Random.Range(0, Paths1.Length);
+                    } while (textures1[l] == textures1[k]);
+                    image2.sprite = Sprite.Create(textures1[l], new Rect(0, 0, textures1[l].width, textures1[l].height), Vector2.zero);
+                }
+                else
+                {
+                    image2.sprite = Sprite.Create(textures1[k], new Rect(0, 0, textures1[k].width, textures1[k].height), Vector2.zero);
+                    do
+                    {
+                        l = UnityEngine.Random.Range(0, Paths1.Length);
+                    } while (textures1[l] == textures1[k]);
+                    image1.sprite = Sprite.Create(textures1[l], new Rect(0, 0, textures1[l].width, textures1[l].height), Vector2.zero);
+                }
 
                 toggle1.onValueChanged.AddListener(OnToggleValueChanged1);
                 toggle2.onValueChanged.AddListener(OnToggleValueChanged2);
-                //clicks++;
+                clicks++;
             }
         }
     }
